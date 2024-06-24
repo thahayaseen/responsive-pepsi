@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+@font-face {
+    font-family: PepsiOwners;
+    src: url(fonts/pepsi_owners/PEPSI_pl.ttf);
+  }
+  @font-face {
+    font-family: pep;
+    src: url(fonts/PepsiOwners2-Regular220909.ttf);
+  }
+  @font-face {
+    font-family: pep-e;
+    src: url(fonts/PepsiOwners2-Extended220909.ttf);
+  }
+  img{
+    width: 100%;
+    height: auto;
+  }
+.buy-pep{
+  background-color: transparent;
+    border-radius: 20px;
+   
+    color: white;
+    font-family: Poppins;
+    font-size: 1.2vw;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 15px;
+    border-width:0.01px;
+    border-color:white;
+    border: solid;
+    
+    border:solid white;
+
+}
+.first-video{
+  height: 100%;
+}
+.buy-2{
+
+    color: white;
+    font-family: Poppins;
+    font-size: 1.9vw;
+    font-weight: bold;
+    border-color:white;
+    border: solid;
+    
+   
+
+}
+.buy-pep:hover{
+  background-color: white;
+  color: blue;
+}
+.navbar-brand img{
+    width: 60px;
+    height: 60px;
+}
+.navbar-nav a{
+    list-style-type: none;
+    font-family: Poppins;
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: #fff;
+    font-weight: bold;
+}
+.video1{
+  width: 100%;
+  
+}
+.image-first {
+  margin-top: -5px;
+  height: 133.667vw;
+  background-image: url(https://www.pepsi.com/en-us/refresh082123/images/wild-cherry/3296846-wild-cherry-2024-digital-rd-3-1080-x-1920.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.shop-now {
+  display: flex;
+  align-items: center;
+  margin-top: 5vw;
+  font-size: 3vw;
+  background-color: #fff;
+  color: #000;
+  font-family: Poppins, sans-serif;
+  border: none;
+  font-weight: bold;
+  margin-bottom: 3.2vw;
+  cursor: pointer;
+  padding: 15px 70px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+
+
+
+
+/*section 3 divition css*/
+.sec3 {
+  justify-content: start;
+  font-family: PepsiOwners;
+  flex-direction: column;
+  height: 220vw;
+  background-color: #000;
+  background-image: url(https://www.pepsi.com/en-us/refresh082123/images/wild-cherry/wc-tvc-bg-mb.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+.img3-all {
+  display: flex;
+  flex-direction: column;
+}
+
+.sec3 .promotion__video button {
+  width: 54.933vw;
+  height: 10.667vw;
+  margin-top: 5vw;
+  font-size: 3.800vw;
+  background-color: #fff;
+  color: #000;
+  font-family:pep;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+.promotion__video {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: start;
+  margin-top: 1rem;
+  margin-bottom:16.5vw;
+  align-items: center;
+}
+.promotion__video--thumbnail {
+  width: 91.200vw;
+  height: 51.467vw;
+  cursor: pointer;
+  box-shadow: none;
+  transition: box-shadow .3s ease-in;
+  border-radius: 26px;
+}
+/* bottom-css*/
+.all-icons{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  margin-top: -4px;
+}
+.title-0{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(22, 54, 255);
+  font-family: pep-e;
+  font-size: 42px;
+  padding: 1rem 0;
+  text-align: center;
+
+}
+.fa-brands{
+  font-size: 27px;
+  color: white;
+}
+.images{
+  overflow: hidden;
+  border: solid #1636FF;
+  margin-bottom:10px ;
+}
+.imag-animation{
+  width: 227px;
+  overflow: hidden;
+  position: relative;
+}
+.imag-animation .fa-brands{
+  color: #ffffff;
+ bottom: 18px;
+  left: 20px;
+ position: absolute;
+  
+ font-weight: 100;
+ 
+}
+.images-0{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.at-icon2{
+  color: #ffffff;
+ bottom: 15px;
+  left: 15px;
+ position: absolute;
+ width: 33px;
+ 
+}
+
+.thu:hover{
+   transform: rotate(10deg) scale(1.16) ;
+}
+
+.thu{
+   transform: scale(1.01);
+   width: 100%;
+   height: 100%;
+   transition: 0.15s;
+}
+
+
+/*footer*/
+.last-sec{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5%;
+  
+  height: 192px;
+  background-color: #0025ff;
+  
+}
+.logo-img img{
+  width: 101px;
+}
+.texts h3{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight:1000;
+}
+.texts{
+  display: flex;
+ 
+  justify-content: space-between;
+}
+.ICONS ul{
+  padding: 0;
+  gap: 22px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.ending a{
+  font-weight: bold;
+  font-size: 20px;
+}
+.ending{
+  background-color: #0025ff;
+  text-align: end;
+  text-decoration: underline;
+  color: white;
+  padding: 0px 20px 10px ;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.at-icon{
+  height: 31.5px;
+  text-align: center;
+}
+.phone-footer {
+  display: none;
+}
+.texts-2 h3{
+  font-size: 1rem;
+  font-family: Poppins;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+  
+
+.phonefooterimg{
+  width: 80px;
+
+}
+/*media-responsive*/
+@media(max-width:850px){
+  .logo-img,.texts {
+    display: none;
+  }
+  .last-sec{
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+  .ending{
+    display: none;
+  }
+  .phone-footer {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+  }
+}
+
+@media(min-width: 768px) {
+  .image-first {
+    height: 133.333vw;
+    background-image: url(https://www.pepsi.com/en-us/refresh082123/images/wild-cherry/3296846-wild-cherry-2024-digital-rd-3-1080-x-1350@2x.png);
+  }
+  .image-first a {
+    width: 39.844vw;
+    height: 7.813vw;
+    margin-top: 4vw;
+    font-size: 3.385vw;
+    margin-bottom: 8.724vw;
+  }
+  .promotion__video--thumbnail {
+    width: 66.185vw;
+    height: 37.357vw;
+    border-radius: 28px;
+  }
+  
+  .sec3 {
+    height: 133.333vw;
+    background-image: url(https://www.pepsi.com/en-us/refresh082123/images/wild-cherry/wc-tvc-bg-tablet-vert@2x.png);
+  }
+  .sec3 .promotion__video button {
+    width: 39.844vw;
+    height: 7.813vw;
+    margin-top: 4vw;
+    font-size: 3.385vw;
+  }
+  .texts{
+    gap: 20px;
+  }
+  
+  
+ 
+ 
+  
+}
+@media(min-width: 992px) {
+  
+}
+
+@media(min-width: 1024px) {
+  .image-first {
+    height: 75vw;
+    background-image: url(https://www.pepsi.com/en-us/refresh082123/images/wild-cherry/3296846-wild-cherry-2024-digital-rd-3-1920-x-1080@2x.png);
+  }
+  .img3-all {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .image-first a {
+    width: 29.492vw;
+    height: 7.520vw;
+    font-size:  2.9vw;
+    margin-bottom: 3.418vw;
+  }
+  .sec3 {
+    height: 75vw;
+  }
+  .sec3 .promotion__video button {
+    width: 38.641vw;
+    height: 5.371vw;
+    font-size: 2.332vw;
+  }
+  .promotion__video--thumbnail {
+    width: 46.338vw;
+    height: 26.152vw;
+    border-radius: 34px;
+  }
+  .texts{
+    gap: 60px;
+  }
+}
+@media(min-width: 1920px) {
+  .sec3 {
+    height: 56.250vw;
+    background-image: url(https://www.pepsi.com/en-us/refresh082123/images/wild-cherry/3296846-wild-cherry-2024-digital-rd-3-1920-x-1080@3x.png);
+  }
+  .sec3 .promotion__video button {
+    width: 500px;
+    height: 99px;
+    font-size: 46px;
+    margin-top: 100px;
+  }
+  .promotion__video--thumbnail {
+    width: 868px;
+    height: 488px;
+  }
+
+
+}
